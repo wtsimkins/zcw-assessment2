@@ -3,6 +3,7 @@
 ```bash
 git remote add zipcoder https://github.com/Zipcoder/JavaAssessmen2Final
 git fetch zipcoder submission
+git checkout submission
 ```
 
 
@@ -39,7 +40,7 @@ git fetch zipcoder submission
 	```
 
 * Each time you get this merge conflict, simply copy and paste the contents above into the `ProjectTestSuite` file
-* Once you have done that, push your submission branch to your repository
+* Once you have done that, `git add` your changes, `git commit -m 'resolved merge conflicts'` your changes and `git push` your submission branch to your repository
 * From there, make a pull request from your `repository/submission` branch to `Zipcoder/submission`
 * The travis build should start up and your tests will run. 
 

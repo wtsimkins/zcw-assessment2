@@ -1,5 +1,5 @@
 # Java Assessment 2 - Submission Branch
-* You _may_ need to first perform a
+* You _may_ need to first perform
 ```
 git remote add zipcoder https://github.com/Zipcoder/JavaAssessmen2Final
 git fetch --all

@@ -2,7 +2,7 @@
 * You _may_ need to first perform
 ```bash
 git remote add zipcoder https://github.com/Zipcoder/JavaAssessmen2Final
-git fetch --all
+git fetch zipcoder submission
 ```
 
 

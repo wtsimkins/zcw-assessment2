@@ -1,6 +1,6 @@
-# Java Assessment 2 
+# Java Assessment 2
 
-This test is broken up into 7 sections. Each section is seperated into its individual branch.
+This test is broken up into 7 sections. Each section is separated into its individual branch.
 
 
 | Branch Name | Branch Topic |
@@ -16,7 +16,7 @@ This test is broken up into 7 sections. Each section is seperated into its indiv
 
 
 To begin working on a branch you must check the branch out.
-For example to start **part1** 
+For example to start **part1**
 
 ```
 git checkout part1

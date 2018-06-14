@@ -1,3 +1,4 @@
-# Part 2 - ArrayUtility
-* Ensure 100% success in the test class, `ArrayUtilityTest`.
-* Begin by creating a respective domain class, `ArrayUtility`.
+# Part 2 - Utilities
+
+## Section 1 - ArrayUtility
+* In `src/test/java/com/zipcodewilmington.assessment2.part2`

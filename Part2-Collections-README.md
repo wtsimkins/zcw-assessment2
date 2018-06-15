@@ -38,4 +38,9 @@ In this section we will write a basic router which takes stores the url path and
 3. `String getController(String path)` - given a path (the key), return the controller (the value) associated with that path
 4. `void update(String path, String newController)` - given a path and a new controller, associate the new controller to that path
 5. `void remove(String path)` - remote the path from the routes
-6. `String toString()` - List out all the path and its controller. Separate each path by a new line (`\n`). The format should be `path -> controller`
+6. `String toString()` - List out all the path and its controller. Separate each path by a new line (`\n`). The format should be `path -> controller`.
+
+```
+   /user -> UserController
+   /student -> StudentController
+```

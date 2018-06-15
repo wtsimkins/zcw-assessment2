@@ -6,7 +6,7 @@ This test is broken up into 7 sections. Each section is separated into its indiv
 | Branch Name | Branch Topic |
 | ----------- | ------------ |
 | **master**      |            |
-| **part1**       |   WuTangConcatenator           |
+| **part1**       |   [WuTangConcatenator](./src/main/java/com/zipcodewilmington/assessment2/part1/README.md)           |
 | **part2**       |   ArrayUtility           |
 | **part3**       |   Rock Paper Scissors Enum Evaluation           |
 | **part4**       |   Java Interfaces           |

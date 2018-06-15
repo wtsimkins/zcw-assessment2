@@ -13,7 +13,7 @@ This test is broken up into 6 sections. Each section has its own README. Click o
 | **part6**       |   [ORM](Part6-ORM-README.md) |
 
 
-## MAKE SURE YOUR CODE COMPILE BEFORE YOU TURN IT IN. NO EXCEPTION!!!!
+## MAKE SURE YOUR CODE COMPILE. NO EXCEPTION!!!!
 
 **PLEASE DO NOT FORGET TO READ THE README**
 

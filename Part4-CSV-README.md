@@ -1,4 +1,4 @@
-## Part 1222 - Exception Handling 
+## Part 4 - Exception Handling 
 
 ## Section 1
 In this section, you will complete the coded needed to parse a CSV. 

@@ -1,4 +1,4 @@
-# SQL
+## Part5 SQL
 
 Given this table in the database, write the command to execute on the table. 
 You can test out your code on [w3school](https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_join) 
@@ -9,6 +9,9 @@ NOTE:
 2. If you tested your code on w3school and it works, but the test doesn't pass. THAT IS OK! Call Nhu over.
 
 HINT: To escape a quote, use `\"`.
+
+### The table
+Imagine if this customer table exists in the database
 
 |CustomerID	|CustomerName|ContactName|Address| City	| PostalCode| Country|
 |-----------|------------|-----------|-------|------|-----------|---------|

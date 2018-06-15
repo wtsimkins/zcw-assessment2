@@ -4,9 +4,9 @@ Given this table in the database, write the command to execute on the table.
 You can test out your code on [w3school](https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_join) 
 
 NOTE: 
-1. In real life, you can put column and table name in quote, but for this test, don't do it.
+1. In real life, you can put column and table name in quote, but don't do it for this test (else the unit test won't pass).
 2. Put `;` at the end of all your statement.  
-2. If you tested your code on w3school and it works, but the test doesn't pass. THAT IS OK!
+2. If you tested your code on w3school and it works, but the test doesn't pass. THAT IS OK! Call Nhu over.
 
 HINT: To escape a quote, use `\"`.
 

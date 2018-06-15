@@ -11,21 +11,21 @@ public class ArrayUtilityTest {
     public void setup(){
         utility = new ArrayUtility();
     }
-
-    @Test
-    public void testMerge_withOneElement(){
-        //Given
-        Integer[] array1 = {9};
-        Integer[] array2 = {6};
-        Integer[] expected = {9, 6};
-
-        //When
-        Integer[] actual = utility.merge(array1, array2);
-
-        //Then
-        Assert.assertArrayEquals(expected, actual);
-    }
-
+//
+//    @Test
+//    public void testMerge_withOneElement(){
+//        //Given
+//        Integer[] array1 = {9};
+//        Integer[] array2 = {6};
+//        Integer[] expected = {9, 6};
+//
+//        //When
+//        Integer[] actual = utility.merge(array1, array2);
+//
+//        //Then
+//        Assert.assertArrayEquals(expected, actual);
+//    }
+//
 //    @Test
 //    public void testMerge_withMultipleElements(){
 //        //Given

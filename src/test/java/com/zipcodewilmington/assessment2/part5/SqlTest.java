@@ -85,6 +85,19 @@ public class SqlTest {
         Assert.assertEquals(expectedHashCode, actualHashCode);
     }
 
+    @Test
+    public void testCountWhere() {
+        String tableName = "Customers";
+        String column = "Country";
+        String value = "Germany";
+
+        String actual = commands.countWhere(tableName, column, value);
+        int actualHashCode = getHashCode(actual);
+        int expectedHashCode = -1273996319;
+
+        Assert.assertEquals(expectedHashCode, actualHashCode);
+    }
+
     private int getHashCode(String actual) {
         return actual.replace(" ", "").toLowerCase().hashCode();
     }

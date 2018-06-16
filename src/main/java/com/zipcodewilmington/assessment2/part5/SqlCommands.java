@@ -40,4 +40,13 @@ public class SqlCommands {
     public String count(String tableName) {
         return null;
     }
+
+    /**
+     * Count how many record is in the table whose column is the given value
+     * @param tableName
+     * @return SQL statement to count the record
+     */
+    public String countWhere(String tableName, String column, String value) {
+        return null;
+    }
 }

@@ -13,7 +13,7 @@
 
 ## Section 2 - UserApp
 1. Creating a DAO
-    1. Given a `ConnectionSource`, create a Dao for the user whose id is a Long `Dao<User, Long>`
-2. `create` use the Dao to create the user. The id should be set automatically
-3. `findById` given an id, find the user with that id
-4. `updateName` given an id and name, find the user associated with that id, set the user name to the new name, then update the user 
+    1. Given a `ConnectionSource`, create a Dao for the user whose id is a Long (`Dao<User, Long>`)
+2. `create` - use the Dao to create the user. The id should be set automatically
+3. `findById` - given an id, find the user with that id
+4. `updateName` - given an id and name, find the user associated with that id, set the user name to the new name, then update the user 

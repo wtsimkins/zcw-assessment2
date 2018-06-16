@@ -1,7 +1,7 @@
 # Part 2 - Collections
 
 ## Section 1 - ArrayUtility
-1. In `src/test/java/com/zipcodewilmington/part2/ArrayUtilitiesTest` uncomment the test file. You can uncomment by selecting all the commented part and press `Command + /`.
+1. In `src/test/java/com/zipcodewilmington/part2/ArrayUtilitiesTest` uncomment the test file. You can uncomment by selecting all the commented part and press `Command` and `/`.
 2. Make all the tests pass
 
 ### Methods
@@ -13,7 +13,7 @@ For example, given `Integer[] array = {5, 4, 2, 18};`, calling `utility.rotate(a
 
 
 ## Section 2 - ListUtility
-1. In `src/test/java/com/zipcodewilmington/part2/ListUtilitiesTest` uncomment the test file. You can uncomment by selecting all the commented part and press `Command + /`.
+1. In `src/test/java/com/zipcodewilmington/part2/ListUtilitiesTest` uncomment the test file. You can uncomment by selecting all the commented part and press `Command` and `/`.
 2. Create a new class named `ListUtility` in `src/test/java/com/zipcodewilmington/part2/`
 3. Make all the tests pass
 
@@ -26,16 +26,16 @@ For example, given `Integer[] array = {5, 4, 2, 18};`, calling `utility.rotate(a
 
 ## Section 3 - Router
 In a common web application framework, there is usually a Router class which figures out which class to call when the user goes to a certain url. The class that actually handle the user request are called the controller. 
-In this section we will write a basic router which takes stores the url path and the associated controller. 
+In this section we will write a basic router which stores the url path and the associated controller. 
 
-1. In `src/test/java/com/zipcodewilmington/part2/RouterTest` uncomment the test file. You can uncomment by selecting all the commented part and press `Command + /`.
+1. In `src/test/java/com/zipcodewilmington/part2/RouterTest` uncomment the test file. You can uncomment by selecting all the commented part and press `Command` and `/`.
 2. Create a new class named `Router` in `src/test/java/com/zipcodewilmington/part2/`
 3. Make all the tests pass
 
 ### Methods
 1. `void add(String path, String controller)` - given two String (a key, and a value), add the string to the map
 2. `int size()` - the number of elements that was added
-3. `String getController(String path)` - given a path (the key), return the controller (the value) associated with that path
+3. `String getController(String path)` - given a path (the key), return the controller's name (the value) associated with that path
 4. `void update(String path, String newController)` - given a path and a new controller, associate the new controller to that path
 5. `void remove(String path)` - remote the path from the routes
 6. `String toString()` - List out all the path and its controller. Separate each path by a new line (`\n`). The format should be `path -> controller`.

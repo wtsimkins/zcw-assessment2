@@ -75,7 +75,7 @@ public class SqlTest {
     }
 
     @Test
-    public void testSelectOrderBy() {
+    public void testSelectInDescendingOrder() {
         String tableName = "Customers";
         String column = "City";
 

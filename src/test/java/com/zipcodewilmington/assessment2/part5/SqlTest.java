@@ -62,7 +62,7 @@ public class SqlTest {
     }
 
     @Test
-    public void testWhereForCountry() {
+    public void testSelectWhereForCountry() {
         String tableName = "Customers";
         String column = "Country";
         String value = "Mexico";
@@ -70,6 +70,18 @@ public class SqlTest {
         String actual = commands.selectWhere(tableName, column, value);
         int actualHashCode = getHashCode(actual);
         int expectedHashCode = -1584030561;
+
+        Assert.assertEquals(expectedHashCode, actualHashCode);
+    }
+
+    @Test
+    public void testSelectOrderBy() {
+        String tableName = "Customers";
+        String column = "City";
+
+        String actual = commands.selectInDescendingOrder(tableName, column);
+        int actualHashCode = getHashCode(actual);
+        int expectedHashCode = -1610963405;
 
         Assert.assertEquals(expectedHashCode, actualHashCode);
     }

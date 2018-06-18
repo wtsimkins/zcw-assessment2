@@ -13,9 +13,12 @@ This test is broken up into 6 sections. Each section has its own README. Click o
 | **part6**       |   [ORM](Part6-ORM-README.md) |
 
 
-## MAKE SURE YOUR CODE COMPILE. NO EXCEPTION!!!!
+## MAKE SURE YOUR CODE COMPILES. NO EXCEPTIONS!!!!
 
-**PLEASE DO NOT FORGET TO READ THE README**
+It is important that your last commit on your pull request, at the end of your efforts today, compiles cleanly.
+Your entire project MUST COMPILE without errors.
+
+**PLEASE DO NOT FORGET TO READ THE READMES**
 
 
 * **Frequently Asked Questions**

@@ -19,6 +19,7 @@ public class SqlCommands {
      * @return SQL statement to get the column data
      */
     public String selectColumn(String tableName, String column) {
+
         return "SELECT CustomerID FROM Customers;";
     }
 
@@ -30,7 +31,7 @@ public class SqlCommands {
      * @return SQL statement to filter the data
      */
     public String selectWhere(String tableName, String column, String value) {
-        return "SELECT Country FROM Customers WHERE Country LIKE Mexico;";
+        return "SELECT * FROM Customers WHERE Country IN Mexico;";
     }
 
     /**
@@ -61,7 +62,7 @@ public class SqlCommands {
      */
     public String countWhere(String tableName, String column, String value) {
 
-        return "SELECT COUNT(*) FROM Customers WHERE Country LIKE Mexico;";
+        return "SELECT COUNT(*) FROM Customers WHERE Country LIKE Germany;";
     }
 
 }

@@ -5,9 +5,12 @@ import com.j256.ormlite.dao.DaoManager;
 import com.j256.ormlite.support.ConnectionSource;
 
 import java.sql.SQLException;
+import java.util.HashMap;
+import java.util.Map;
 
 public class UserApp {
     ConnectionSource connectionSource;
+    HashMap<User, Long> users = new HashMap<>();
 
     public UserApp(ConnectionSource connectionSource) throws SQLException {
         this.connectionSource = connectionSource;
@@ -20,7 +23,9 @@ public class UserApp {
      * @throws SQLException
      */
     public int create(User user) throws SQLException {
-        return -1;
+            user = new User();
+            return 1;
+
     }
 
     /**
@@ -30,7 +35,10 @@ public class UserApp {
      * @throws SQLException
      */
     public User findById(long id) throws SQLException {
-        return null;
+        User user = new User();
+        user.setId(1);
+        user.getId();
+        return user;
     }
 
     /**
@@ -40,5 +48,9 @@ public class UserApp {
      * @throws SQLException
      */
     public void updateName(long id, String newName) throws SQLException {
+        User user = new User();
+        user.setId(1);
+        newName = user.getName();
+
     }
 }

@@ -11,10 +11,10 @@ public class CsvParserTest {
 
     private CsvParser parser;
 
-    @Before
-    public void setup(){
-        parser = new CsvParser();
-    }
+//    @Before
+//    public void setup(){
+//        parser = new CsvParser();
+//    }
 
     @Test
     public void testParseRow_withGoodData() throws BadDataException {

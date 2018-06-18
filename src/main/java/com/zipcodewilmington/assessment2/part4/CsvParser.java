@@ -1,11 +1,26 @@
 package com.zipcodewilmington.assessment2.part4;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
 import java.io.IOException;
 import java.util.List;
 import java.util.logging.Logger;
 
 public class CsvParser {
     private static final Logger LOGGER = Logger.getLogger(CsvParser.class.getName());
+    int id;
+    String firstName;
+    String lastName;
+    String email;
+
+    public CsvParser(int id, String firstName, String lastName, String email){
+        this.id = id;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.email = email;
+    }
+
+
 
     /**
      * Given a string with fields separated by commas.
@@ -18,6 +33,7 @@ public class CsvParser {
      *                          or when there are missing fields
      */
     protected User parseRow(String row) throws BadDataException {
+
         return null;
     }
 

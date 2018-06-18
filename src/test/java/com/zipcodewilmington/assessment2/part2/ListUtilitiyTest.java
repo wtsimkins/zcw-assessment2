@@ -8,38 +8,38 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ListUtilitiyTest {
-//    private ListUtility utility;
-//
-//    @Before
-//    public void setup(){
-//        utility = new ListUtility();
-//    }
-//
+    private ListUtility utility;
+
+    @Before
+    public void setup(){
+        utility = new ListUtility();
+    }
+
 //    @Test
 //    public void testAdd(){
 //        boolean actual = utility.add(5);
 //
 //        Assert.assertTrue(actual);
 //    }
-//
-//    @Test
-//    public void testSize_whenThereIsNoElement(){
-//        int expectedSize = 0;
-//        int actualSize = utility.size();
-//
-//        Assert.assertEquals(expectedSize, actualSize);
-//    }
-//
-//    @Test
-//    public void testSize_afterAdd(){
-//        utility.add(1);
-//        utility.add(4);
-//
-//        int expectedSize = 2;
-//        int actualSize = utility.size();
-//
-//        Assert.assertEquals(expectedSize, actualSize);
-//    }
+
+    @Test
+    public void testSize_whenThereIsNoElement(){
+        int expectedSize = 0;
+        int actualSize = utility.size();
+
+        Assert.assertEquals(expectedSize, actualSize);
+    }
+
+    @Test
+    public void testSize_afterAdd(){
+        utility.add(1);
+        utility.add(4);
+
+        int expectedSize = 2;
+        int actualSize = utility.size();
+
+        Assert.assertEquals(expectedSize, actualSize);
+    }
 //
 //    @Test
 //    public void testUnique_forOneElement(){

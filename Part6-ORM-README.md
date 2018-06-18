@@ -1,9 +1,9 @@
 # Part 6 - ORM
 
 ## Section 1 - User
-1. Setting database annotation
-    1. Add the annotation to associated with the database table `users`
-    2. Add a `long id` field. Add the annotation to set it as database field. Column name is `id`. The field should be generated.
+1. Setting database annotations
+    1. Add the annotation to be associated with the database table `users`
+    2. Add a `long id` field. Add the annotation to set it as database field. Column name is `id`. The field should be auto-generated.
     3. Add a `String name` field. Add the annotation to set it as database field. Column name is `name`. The field must not be null.
 2. Create Constructor
     1. Create an empty contructor

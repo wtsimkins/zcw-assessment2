@@ -16,7 +16,9 @@ This test is broken up into 6 sections. Each section has its own README. Click o
 ## MAKE SURE YOUR CODE COMPILES. NO EXCEPTIONS!!!!
 
 It is important that your last commit on your pull request, at the end of your efforts today, compiles cleanly.
-Your entire project MUST COMPILE without errors.
+Try to pass as many tests as you can. If you have tests that do no pass, you
+must not comment out the tests; you should have methods that allow the test to fail, if neccessary.
+Your entire project MUST COMPILE without errors. 
 
 **PLEASE DO NOT FORGET TO READ THE READMES**
 
